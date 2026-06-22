@@ -1,0 +1,86 @@
+/* =====================================
+   CAREERPILOT AI - PREMIUM DARK THEME
+===================================== */
+
+.stApp {
+    background: linear-gradient(135deg, #0f172a, #111827, #1e293b);
+    color: white;
+}
+
+.main { background-color: #0f172a; color: #ffffff; }
+
+h1 { color: #38bdf8 !important; text-align: center; font-weight: 800; }
+h2, h3 { color: #60a5fa !important; }
+
+section[data-testid="stSidebar"] { background-color: #111827; }
+section[data-testid="stSidebar"] * { color: white; }
+
+.stButton > button {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    background: #2563eb;
+    color: white;
+    transition: 0.3s;
+}
+.stButton > button:hover { background: #1d4ed8; transform: scale(1.02); }
+
+textarea { border-radius: 10px !important; }
+
+[data-testid="stFileUploader"] {
+    background-color: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+[data-testid="metric-container"] {
+    background-color: #1e293b;
+    border-radius: 12px;
+    padding: 15px;
+    border: 1px solid #334155;
+}
+
+.stSuccess, .stInfo, .stWarning { border-radius: 10px; }
+
+.streamlit-expanderHeader {
+    background-color: #1e293b;
+    color: white;
+    border-radius: 10px;
+}
+
+table { border-radius: 10px; overflow: hidden; }
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #111827; }
+::-webkit-scrollbar-thumb { background: #3b82f6; border-radius: 10px; }
+
+footer { visibility: hidden; }
+#MainMenu { visibility: hidden; }
+
+.custom-card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #334155;
+    margin-bottom: 10px;
+}
+
+.skill-tag {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px;
+    background-color: #2563eb;
+    border-radius: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.ats-score {
+    font-size: 32px;
+    font-weight: bold;
+    color: #22c55e;
+    text-align: center;
+}
